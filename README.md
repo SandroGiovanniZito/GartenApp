@@ -5,7 +5,7 @@ Dieses Projekt ermöglicht die Überwachung und Steuerung eines Gartens mithilfe
 # Funktionsweise
 Der Raspberry Pi sammelt Daten von Sensoren, einschließlich Helligkeit, Luftfeuchtigkeit und Bodenfeuchtigkeit.
 Die gesammelten Daten werden an eine Cloud-Datenbank gesendet.
-Eine Smartphone-App greift auf die Cloud-Datenbank zu und zeigt die aktuellen Sensorwerte in Echtzeit an.
+Eine WebApp greift auf die Cloud-Datenbank zu und zeigt die aktuellen Sensorwerte in Echtzeit an.
 Die App ermöglicht auch die Steuerung des Gartens, z. B. das Ein- und Ausschalten der Wasserpumpe.
 
 # Funktionen
@@ -29,8 +29,8 @@ Relaismodul zur Steuerung der Wasserpumpe.
 Schließe die Sensoren und das Relaismodul an den Raspberry Pi an.
 Stelle sicher, dass der Raspberry Pi korrekt konfiguriert ist und auf die erforderlichen Bibliotheken und APIs zugreifen kann.
 Richte eine Cloud-Datenbank ein und konfiguriere den Raspberry Pi, um Daten an diese Datenbank zu senden.
-Entwickle oder installiere eine Smartphone-App, die mit der Cloud-Datenbank und dem Raspberry Pi kommunizieren kann.
-Starte den Raspberry Pi und die Smartphone-App, um mit der Überwachung und Steuerung des Gartens zu beginnen.
+Entwickle oder installiere eine WebApp, die mit der Cloud-Datenbank und dem Raspberry Pi kommunizieren kann.
+Starte den Raspberry Pi und die WebApp, um mit der Überwachung und Steuerung des Gartens zu beginnen.
 
 # Autoren
 Dieses Projekt wurde von Sandro Giovanni Zito entwickelt.
