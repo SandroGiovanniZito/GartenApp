@@ -11,7 +11,7 @@ Die App ermöglicht auch die Steuerung des Gartens, z. B. das Ein- und Ausschalt
 # Funktionen
 Echtzeit-Feedback von den verschiedenen Sensoren im Garten.
 Eine Datenbank zur Überwachung des Gartenzustands.
-Globale Überwachung und Steuerungsmöglichkeiten über eine Smartphone-App.
+Globale Überwachung und Steuerungsmöglichkeiten über eine WebApp.
 Ein Tropfbewässerungssystem zur Bewässerung der Pflanzen.
 Ein app-gesteuertes Bewässerungssystem zur Fernsteuerung der Bewässerung.
 Automatische Bewässerungszeitpläne für eine optimale Bewässerung.
