@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Gartenüberwachung</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <h1>Gartenüberwachung</h1>
-  
+
   <div id="sensor-feedback">
     <h2>Echtzeit-Feedback</h2>
     <div class="sensor-box">
@@ -21,14 +23,16 @@
       <p>Bodenfeuchtigkeit:</p>
       <span id="soil-moisture-value"></span>
     </div>
-  </div>
   
   <div id="garden-control">
-    <h2>Gartensteuerung</h2>
-    <button id="water-pump-on">Wasserpumpe einschalten</button>
-    <button id="water-pump-off">Wasserpumpe ausschalten</button>
+    <h2>Gartensteuerung Wasserpumpe</h2>
+    <h4>Ein / Aus Schalter</h4>
   </div>
-  
-  <script src="app.js"></script>
+  <div class="container">
+    <div class="toggle">
+      <input type="checkbox" id="switch">
+      <label for="switch"></label>
+    </div>
+
+    <script src="app.js"></script>
 </body>
-</html>

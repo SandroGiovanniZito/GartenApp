@@ -1,39 +1,111 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #sensor-feedback {
-    margin-top: 30px;
-  }
-  
-  .sensor-box {
-    background-color: #333;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .sensor-box p {
-    margin: 0;
-    font-weight: bold;
-  }
-  
-  .sensor-box span {
-    font-size: 18px;
-  }
-  
-  #garden-control {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  button {
-    margin-right: 10px;
-  }
-  
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#sensor-feedback {
+  margin-top: 30px;
+}
+
+.sensor-box {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sensor-box p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.sensor-box span {
+  font-size: 18px;
+}
+
+#garden-control {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.toggle {
+position: relative;
+width: 60px;
+height: 30px;
+background-color: grey;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.toggle input[type="checkbox"] {
+display: none;
+}
+
+.toggle label {
+position: absolute;
+top: 2px;
+left: 2px;
+width: 26px;
+height: 26px;
+background-color: white;
+border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+.toggle {
+position: relative;
+width: 120px; /* Ändere die Breite hier nach Bedarf */
+height: 30px;
+background-color: grey;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.toggle label {
+position: absolute;
+top: 2px;
+left: 2px;
+width: 26px;
+height: 26px;
+background-color: white;
+border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 5vh;
+}
+
+.toggle {
+position: relative;
+width: 120px;
+height: 30px;
+background-color: grey;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.toggle label {
+position: absolute;
+top: 2px;
+left: 2px;
+width: 26px;
+height: 26px;
+background-color: white;
+border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+.toggle input[type="checkbox"]:checked + label {
+transform: translateX(90px);
+background-color: #39FF14;
+box-shadow: 0 0 5px #39FF14;
+}
