@@ -35,5 +35,4 @@ Starte den Raspberry Pi und die Smartphone-App, um mit der Überwachung und Steu
 # Autoren
 Dieses Projekt wurde von Sandro Giovanni Zito entwickelt.
 
-Lizenz
-Dieses Projekt ist unter der [Lizenz] lizenziert.
+
