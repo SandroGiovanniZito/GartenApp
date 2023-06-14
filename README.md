@@ -1,4 +1,4 @@
-# IOT-Gartenüberwachung
+# Urbane IOT-Gartenüberwachung
 
 Dieses Projekt ermöglicht die Überwachung und Steuerung eines Gartens mithilfe von IOT-Technologie. Es verwendet einen Raspberry Pi und verschiedene Sensoren, um Informationen wie Helligkeit, Luftfeuchtigkeit und Bodenfeuchtigkeit zu erfassen und an eine Cloud-Datenbank zu senden. Eine Smartphone-App stellt die gesammelten Daten dar und ermöglicht die Steuerung des Gartens.
 
